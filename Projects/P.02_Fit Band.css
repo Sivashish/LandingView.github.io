@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    display: flex;
+    position: relative;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1614854262340-ab1ca7d079c7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#next{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 90px;
+    background: rgba(0, 0, 0, 0.3);
+    left: 95%;
+    top: 40%;
+    /* animation: blink 2s linear infinite; */
+}
+
+#next:hover{
+    transition-duration: 1s;
+    transform: all .5s;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.911);
+    opacity: .9;
+}
+
+#top{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 15%;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+#left{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    width: 40%;
+    height: 50%;
+    /* background-color: transparent;  this is by default applied of div*/
+}
+#right{
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    width: 30%;
+    height: 60%;
+}
+
+#Trackmate{
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+#faq{
+    position: absolute;
+    left: 80%;
+    top : 40%;
+    color: white;
+    text-decoration: none;
+}
+
+.ri-record-circle-line{
+    position: absolute;
+    left: 8%;
+    top: 50%;
+    color: white;
+}
+
+#Login{
+    position: absolute;
+    left: 90%;
+    top: 40%;
+    color: white;
+    text-decoration: none;
+}
+
+.ri-account-circle-line{
+    position: absolute;
+    left: 88%;
+    top: 42%;
+    color: white;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.line1{
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+}
+#line2{
+    font-size: 80px;
+    color: white;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+/* @media(max-width: 500px){   To make website responsive
+    #main{
+        flex-direction: column;
+    }
+
+    #main #lef{
+        width: 100%;
+    }
+
+    #main #rig{
+        width: 100%;
+    }
+} */
