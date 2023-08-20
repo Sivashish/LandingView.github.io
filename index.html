@@ -3,138 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Landing View</title>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        html,body{
-            width: 100%;
-            height: 100%;
-        }
-        #main{
-            width: 100%;
-            height: 100%;
-            background-image: url(https://img.freepik.com/premium-vector/beautiful-nature-backgrounds-vector-design-templates_559819-158.jpg);
-            background-size: cover;
-            background-position: center;
-        }
-        #second{
-            position: absolute;
-            top: 30%;
-            left: 35%;
-            width: 30%;
-            height: 60%;
-            background-image: url(https://img.freepik.com/free-vector/hand-drawn-namaste-greeting-background_23-2147685462.jpg?w=740&t=st=1692086593~exp=1692087193~hmac=2350b046a63195799b3fbb4d20158c84b4582ee94e3c657f48ed49cb4fe0cc0b);
-            background-repeat: no-repeat;
-            background-size: 100%;
-            box-shadow: 0 0 8px 8px white inset;
-        }
-        #next{
-            position: absolute;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 60px;
-            height: 400px;
-            background: rgba(0, 0, 0, 0.311);
-            left: 96%;
-            top: 25%;
-        }
-        
-        #next:hover{
-            transition-duration: 1s;
-            transform: all .5s;
-            transform: translateX(-50%);
-            background-color: rgba(0, 0, 0, 0.911);
-            opacity: .9;
-        }
-        .container{
-            display: inline-block;
-            font-size: 50px;
-            font-family: 'Brush Script MT', cursive;
-          }
-          .title-word {
-            animation: color-animation 4s linear infinite;
-          }
-          
-          .title-word-1 {
-            --color-1: #DF8453;
-            --color-2: #3D8DAE;
-            --color-3: #E4A9A8;
-          }
-          
-          .title-word-2 {
-            --color-1: #DBAD4A;
-            --color-2: #ACCFCB;
-            --color-3: #17494D;
-          }
-          
-          .title-word-3 {
-            --color-1: #ACCFCB;
-            --color-2: #E4A9A8;
-            --color-3: #ACCFCB;
-          }
-          
-          .title-word-4 {
-            --color-1: #3D8DAE;
-            --color-2: #DF8453;
-            --color-3: #E4A9A8;
-          }
-          
-          @keyframes color-animation {
-            0%    {color: var(--color-1)}
-            32%   {color: var(--color-1)}
-            33%   {color: var(--color-2)}
-            65%   {color: var(--color-2)}
-            66%   {color: var(--color-3)}
-            99%   {color: var(--color-3)}
-            100%  {color: var(--color-1)}
-          }
-          
-          /* Here are just some visual styles. 🖌 */
-          
-          .container {
-            position: absolute;
-            top: 20%;
-            left: 25%;
-            font-size: 50px;
-          }
-          
-          .title {
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            font-weight: 800;
-            font-size: 50px;
-            overflow: hidden;
-            white-space: nowrap;
-            width: 0;
-            animation: typing;
-            animation-duration: 1.5s;
-            animation-timing-function: steps(30, end);
-            animation-fill-mode: forwards;
-          }
-          @keyframes typing {
-            from { width: 0 }
-            to { width: 100% }
-          }
-    </style>
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="main">
-        <div id="second"></div>
-        <div class="container">
-            <h2 class="title">
-              <span class="title-word title-word-1">Welcome</span>
-              <span class="title-word title-word-2">To</span>
-              <span class="title-word title-word-3">LandingView.</span>
-              <span class="title-word title-word-4">git.io</span>
-            </h2>
-          </div>
-        <div id="next">
-            <a href="Projects/P.01_Fruit site.html" target="_blank" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"><path d="M13.1714 12.0007L8.22168 7.05093L9.63589 5.63672L15.9999 12.0007L9.63589 18.3646L8.22168 16.9504L13.1714 12.0007Z" fill="rgba(255,255,255,1)"></path></svg></i></a>
+    <div id="mainup">
+        <div id="nav">
+            <span id="heading">Welcome to my portfolio</span>
+        </div>    
+        <div id="uplftext">
+            <div id="t1">Hi my name is <span class="tcolor">Sivashish</span> and i am a <span class="tcolor"> passionate </span><br><span id="element"></span></div>
+        </div>
+        <div id="uprtimage"></div>
+        <div class="down-arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48"><path d="M11.9997 13.1714L16.9495 8.22168L18.3637 9.63589L11.9997 15.9999L5.63574 9.63589L7.04996 8.22168L11.9997 13.1714Z"></path></svg></i></div>
     </div>
+    <div id="maindown">
+        <div id="f1">Welcome to my landing page portfolio</div>
+        <div id="f2">
+            <img src="./Projects/resource/fruit.png" alt="" id="img1">
+            <div id = "line1"></div>
+            <img src="./Projects/resource/sit2.png" alt="" id="img2">
+        </div>
+        <div id="f3">
+            <img src="./Projects/resource/sit3.png" alt="" id="img3">
+            <div id = "line2"></div>
+            <div id="line2titl">did you like it then click hear</div>
+                <a href="./Projects/P.01_Fruit site.html">
+                    <h5>Click to visit</h5>
+                    <div id="green"></div>
+            </a>
+        </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
 </body>
 </html>

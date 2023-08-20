@@ -1,0 +1,106 @@
+var typed = new Typed('#element', {
+    strings: ['Software Developer.', 'Web Develope.'],
+    startdelay:1.5,
+    repeat:-1,
+    typeSpeed: 50,
+    loop:true
+  });
+gsap.from("#mainup",{
+    delay:0.5,
+    opacity:0,
+    duration:1,
+    y:-60
+})
+gsap.from("#uprtimage",{
+    delay:1,
+    opacity:0,
+    duration:1,
+    x:60
+})
+gsap.from("#uplftext",{
+    delay:1,
+    opacity:0,
+    duration:1,
+    x:-60
+})
+gsap.from(".down-arrow",{
+    delay:0.5,
+    opacity:0,
+    duration:1,
+    y:-20, 
+    yoyo:true,
+    repeat:"-1",
+})
+gsap.from("#f1",{
+    delay:0.4,
+    opacity:0,
+    duration:1,
+    y:60
+})
+gsap.from("#maindown",{
+    scrollTrigger:{
+        trigger:"#maindown",
+        scroller:"body",
+        start:"top 80%",
+    },
+    delay:0.4,
+    opacity:0,
+    duration:1,
+    y:60
+})
+gsap.from("#img1",{
+    scrollTrigger:{
+        trigger:"#maindown",
+        scroller:"body",
+        start:"top 60%",
+    },
+    delay:1,
+    opacity:0,
+    duration:1,
+    x:-60
+})
+gsap.from("#img2",{
+    scrollTrigger:{
+        trigger:"#maindown",
+        scroller:"body",
+        start:"top 60%",
+    },
+    delay:1,
+    opacity:0,
+    duration:1,
+    x:60
+})
+gsap.from("#img3",{
+    scrollTrigger:{
+        trigger:"#maindown",
+        scroller:"body",
+        start:"top 60%",
+    },
+    delay:1,
+    opacity:0,
+    duration:1,
+    x:-60
+})
+gsap.from("#line2titl",{
+    scrollTrigger:{
+        trigger:"#maindown",
+        scroller:"body",
+        start:"top 60%",
+    },
+    delay:1,
+    opacity:0,
+    duration:1,
+    x:60
+})
+gsap.from("a",{
+    scrollTrigger:{
+        trigger:"#maindown",
+        scroller:"body",
+        start:"top 60%",
+    },
+    delay:1,
+    opacity:0,
+    duration:1, 
+    yoyo:true,
+    repeat:"-1",
+})

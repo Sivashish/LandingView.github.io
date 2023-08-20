@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*"Gilroy" not worked why*/
+    box-sizing:  border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.down-arrow {
+    position: absolute;
+    top: calc(100vh - 60px);
+    left: calc(50% - 14px);
+  }
+
+
+/* mainup code */
+#mainup{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1508614999368-9260051292e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    background-position: center;
+    background-size: cover;
+}
+#nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:0%;
+    width: 100%;
+    height: 10%;
+    opacity: .7;
+    background-color: #F4C482;
+    font-size: 50px;
+    font-weight: 500;
+}
+#heading{
+    opacity: 1;
+}
+#mainup #uplftext{
+    position: relative;
+    width: 40%;
+    height: 40%;
+    font-size: 60px;
+    font-weight: 300;
+}
+.tcolor , #element{
+    color: #FE439B;
+}
+
+#mainup #uprtimage{
+    position: relative;
+    width: 30%;
+    height: 60%;
+    background-image: url(./Projects/resource/—Pngtree—cartoon\ hand\ drawn\ work\ busy_5330015.png);
+    background-position: center;
+    background-size: cover;
+}
+  /* down page code */
+#maindown{  
+    width: 100%;
+    height: 100%;
+    background-color: #E7D0B6;
+}
+#f1{
+    position: relative;  
+    height: 20%;
+    width: 30%;
+    top: 5%;
+    left: 35%;
+    font-size: 50px;
+}
+#f2{
+    position: relative;
+    width: 40%;
+    height: 30%;
+    top: 10%;
+    left: 30%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#img1{
+    height: 100%;
+    width: 40%;
+    padding: 10px 0;
+    transition: margin 0.8s ease;
+}
+#maindown #f2 #line1{
+    width: 2px;
+    height: 100%;
+    background-color: black;
+}
+#img2{
+    height: 100%;
+    width: 40%;
+    padding: 10px 0;   
+    transition: margin 0.8s ease; 
+}
+#f3{
+    position: relative;
+    width: 40%;
+    height: 30%;
+    top: 15%;
+    left: 33%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 30px;
+}
+#img3{
+    height: 100%;
+    width: 40%;
+    padding: 10px 0;
+    transition: margin 0.8s ease;
+}
+#maindown #f3 #line2{
+    width: 4px;
+    height: 100%;
+    background-color: black;
+}
+#maindown #f3 #line2titl{
+    height: 100%;
+    width: 40%;
+    padding: 10px 0;
+    font-weight: 200;
+}
+#img1:hover,#img2:hover,#img3:hover{
+    margin-top: -20px;
+}
+a{
+    position: relative;
+    top: 70%;
+    left: -25%;
+    width: 40%;
+    height: 25%;
+    padding: 8px 20px;
+    border: 2px solid black;
+    border-radius: 50px;
+    text-decoration: none;
+    background-color: #260178;
+}
+h5{
+    position: relative;
+    top: 10%;
+    left: 2px;
+    color: white;
+    font-size: 20px;
+    font-style: bold;
+    position: relative;
+    z-index: 99;
+}

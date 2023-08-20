@@ -119,3 +119,24 @@ html,body{
 #main img:hover{
     margin-top: -10px;
 }
+#next{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: -5%;
+    align-items: center;
+    width: 60px;
+    height: 90px;
+    background: rgba(0, 0, 0, 0.3);
+    margin-left: 95%;
+    margin-top: 20%;
+    /* animation: blink 2s linear infinite; */
+}
+
+#next:hover{
+    transition-duration: 1s;
+    transform: all .5s;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.911);
+    opacity: .9;
+}
