@@ -1,5 +1,5 @@
 var typed = new Typed('#element', {
-    strings: ['Software Developer.', 'Web Develope.'],
+    strings: ['Software Developer.', 'Web Developer.'],
     startdelay:1.5,
     repeat:-1,
     typeSpeed: 50,
